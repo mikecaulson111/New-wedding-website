@@ -1,0 +1,30 @@
+.times-32 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.times-26 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.upper-margin {
+    margin-top: 100px;
+}
+
+.brown-background {
+    background-color: brown;
+}
+
+.bullet-points-text {
+    max-width: 50ch;
+    margin: 0 auto;
+}

@@ -19,6 +19,7 @@ function App() {
        <Router>
         <p className="paragraph-64-times">Mia and Mike</p>
         <p className="date-paragraph">June 26th, 2027</p>
+        <p className="date-paragraph">Manitou Springs, CO</p>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
