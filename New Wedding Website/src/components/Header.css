@@ -1,0 +1,40 @@
+/* Container for the button list */
+.header-nav {
+  /* 1. Sets the container to use Flexbox */
+  display: flex;
+  
+  /* 2. Aligns items horizontally */
+  flex-direction: row; 
+  
+  /* Optional: Puts space between the buttons and pushes them to the center/sides */
+  justify-content: center; /* Options: flex-start, flex-end, space-between, center */
+  
+  /* Basic styling for the header bar */
+  /* background-color: #333; */
+  background-color: #eeee;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Styling for the individual buttons */
+.nav-button {
+  /* Reset some default browser button styles */
+  /* background-color: #555; */
+  background-color: #efefef
+  color: white;
+  border: none;
+  
+  /* Add spacing between buttons */
+  margin: 0 10px; 
+  padding: 8px 15px;
+  
+  /* Make it look like a button */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #777;
+}
