@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
-import Header from "./components/Header.jsx";
+// import Header from "./components/Header.jsx";
+import Header from "./components/header.jsx";
 
 import HomePage from "./Pages/HomePage/Home.jsx";
 import OurStory from "./Pages/OurStoryPage/OurStory.jsx";
@@ -17,7 +18,7 @@ function App() {
     <>
        <Router>
         <p className="paragraph-64-times">Mia and Mike</p>
-        <p className="date-paragraph">June 26th, 2027     Manitou Springs, CO</p>
+        <p className="date-paragraph">June 26th, 2027</p>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />

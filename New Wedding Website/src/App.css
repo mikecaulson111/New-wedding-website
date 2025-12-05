@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #f6eee3;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -42,7 +46,9 @@
 }
 
 .paragraph-64-times {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: "Edwardian Script", cursive; */
+  font-family: "Pinyon Script", cursive;
   font-size: 90px;
 }
 

@@ -8,12 +8,16 @@
   
   /* Optional: Puts space between the buttons and pushes them to the center/sides */
   justify-content: center; /* Options: flex-start, flex-end, space-between, center */
+
+  margin: 0 auto;
   
   /* Basic styling for the header bar */
   /* background-color: #333; */
-  background-color: #eeee;
+  /* background-color: #eeee; */
+  background-color: rgb(196, 185, 170);
   padding: 10px 0;
   width: 100%;
+  max-width: 1200px;
   margin-bottom: 20px;
 }
 
@@ -21,7 +25,7 @@
 .nav-button {
   /* Reset some default browser button styles */
   /* background-color: #555; */
-  background-color: #efefef
+  background-color: #b2b2e2;
   color: white;
   border: none;
   
